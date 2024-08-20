@@ -7,6 +7,7 @@ class Web3Service {
   late DeployedContract _contract;
   late ContractFunction _getBalance;
 
+  final contractAddress = EthereumAddress.fromHex('0x2169dff7dc41371dce4a3de496c9c08af74ce5db');
   final String _rpcUrl =
       "https://sepolia.infura.io/v3/34ef393c55224fafb01a09013b616ac9"; // Replace with your Infura URL
 
